@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS</title>
+</head>
+<body>
+    <script>
+    const url = "http://localhost:1337/books/books";
+    fetch(url).then(res => res.json()).then(booksArr => console.log(booksArr));
+
+    </script>
+</body>
+</html>
